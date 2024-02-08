@@ -6,13 +6,13 @@ void swapp( t &a, t &b){
     a=b;
     b= temp;
 }
-template <class t1, class t2>
-float average( t1 a, t2 b){
-    return (a+b)/2.0;
+template <class t1, class t2,class t3>
+float average( t1 a, t2 b, t3 c){
+    return (a+b+c)/3.0;
 }
 int main(){ 
-float a = average( 2.5,3.8);
-printf(" The average of two number is : %.3f \n ",a);
+float a = average( 2.5,3.8,7);
+printf(" The average of Three number is : %.3f \n ",a);
 int y= 5;
 int x = 34;
 // float x= 3.4;
